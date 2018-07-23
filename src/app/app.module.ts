@@ -13,13 +13,15 @@ import { HomeComponent } from './components/home/home.component';
 
 // Service
 import { ArticleService } from './article.service';
+import { ArticleComponent } from './components/article/article.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    ArticleComponent
   ],
   imports: [
     BrowserModule,
